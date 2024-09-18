@@ -1,4 +1,8 @@
+#include "constants.h"
 #include "Pede.h"
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Vector2.hpp>
 
 Pede::Pede(bool isHead_, sf::Vector2f initialGridPosition, float initialRotation, Texture& texture)
 {
@@ -8,7 +12,7 @@ Pede::Pede(bool isHead_, sf::Vector2f initialGridPosition, float initialRotation
 
 	sprite.setTexture(texture);
 	sprite.setOrigin(sf::Vector2f(GRID_SIZE_PIXELS / 2, GRID_SIZE_PIXELS / 2));
-	
+
 	state = PedeState::ACTIVE;
 }
 
@@ -25,7 +29,7 @@ void Pede::setGridPosition(sf::Vector2f newGridPosition)
 sf::Vector2f Pede::getPosition()
 {
 	return sf::Vector2f(
-		(gridPosition.x + 0.5) * (float) GRID_SIZE_PIXELS, 
+		(gridPosition.x + 0.5) * (float)GRID_SIZE_PIXELS,
 		(gridPosition.y + 0.5) * (float)GRID_SIZE_PIXELS + (float)TOP_BAR_HEIGHT);
 }
 

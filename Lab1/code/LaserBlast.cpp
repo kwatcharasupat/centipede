@@ -1,7 +1,9 @@
 #include "LaserBlast.h"
 
-#include <SFML/Graphics.hpp>
-#include <list>
+#include "constants.h"
+#include <SFML/Graphics/Color.hpp>
+#include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/System/Vector2.hpp>
 
 using namespace sf;
 

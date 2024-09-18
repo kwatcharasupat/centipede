@@ -1,4 +1,8 @@
+#include "constants.h"
 #include "LivesDisplay.h"
+#include <list>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/System/Vector2.hpp>
 
 LivesDisplay::LivesDisplay(int numLives, sf::Vector2f initPosition)
 {

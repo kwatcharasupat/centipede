@@ -1,5 +1,10 @@
+#include "constants.h"
+#include "LaserBlast.h"
 #include "Starship.h"
-#include <algorithm>
+#include <list>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <utility>
 
 using namespace sf;
 using namespace std;
@@ -26,7 +31,7 @@ void Starship::moveRight()
 
 void Starship::moveUp()
 {
-	position.y = std::max((float) maxVerticalPosition, position.y - movementDelta);
+	position.y = std::max((float)maxVerticalPosition, position.y - movementDelta);
 }
 
 void Starship::moveDown()

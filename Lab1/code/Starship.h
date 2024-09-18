@@ -1,8 +1,11 @@
 #pragma once
 
-#include <SFML/Graphics.hpp>
+#include "constants.h"
 #include "LaserBlast.h"
 #include <list>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Vector2.hpp>
 
 using namespace sf;
 using namespace std;

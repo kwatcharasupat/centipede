@@ -1,11 +1,14 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include "constants.h"
-#include <list>
 #include "Centipede.h"
+#include "constants.h"
 #include "Mushroom.h"
-#include "LaserBlast.h"
 #include "Starship.h"
+#include <list>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Clock.hpp>
+#include <SFML/System/Time.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <utility>
 
 using namespace sf;
 using namespace std;

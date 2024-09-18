@@ -1,8 +1,8 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include <list>
 
 #include "constants.h"
+#include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/System/Vector2.hpp>
 
 class LaserBlast
 {
@@ -11,7 +11,7 @@ public:
 	LaserBlast(sf::Vector2f initPosition);
 
 
-	enum LaserBlastState{
+	enum LaserBlastState {
 		UNINITIALIZED,
 		TRAVELLING,
 		DESTROYED

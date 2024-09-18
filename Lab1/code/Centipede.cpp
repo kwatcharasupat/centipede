@@ -1,4 +1,14 @@
 #include "Centipede.h"
+#include "constants.h"
+#include "LaserBlast.h"
+#include "Mushroom.h"
+#include "Pede.h"
+#include "Starship.h"
+#include <list>
+#include <SFML/Graphics/Rect.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Vector2.hpp>
 #include <tuple>
 using namespace sf;
 using namespace std;

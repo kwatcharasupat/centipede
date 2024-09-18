@@ -1,13 +1,17 @@
 
+#include "constants.h"
 #include "Spider.h"
 #include <algorithm>
+#include <cmath>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/System/Vector2.hpp>
 
 using namespace sf;
 using namespace std;
 
 Spider::Spider(sf::Vector2f initPosition)
 {
-    position = initPosition;
+	position = initPosition;
 	state = SpiderState::ALIVE;
 
 	texture.loadFromFile("graphics/Spider.png");
@@ -57,7 +61,7 @@ void Spider::setPosition(sf::Vector2f newPosition)
 }
 
 void Spider::regenerate() {
-	if ((clock.getElapsedTime() - timeOfLastDeath).asSeconds() > secondsBeforeRevival){
+	if ((clock.getElapsedTime() - timeOfLastDeath).asSeconds() > secondsBeforeRevival) {
 		state = SpiderState::ALIVE;
 	}
 }
@@ -74,8 +78,8 @@ void Spider::roam()
 
 	position.x = std::clamp(
 		position.x + movementDelta * cos(currentAngle),
-		0.0f, 
-		(float) (WINDOW_WIDTH - GRID_SIZE_PIXELS)
+		0.0f,
+		(float)(WINDOW_WIDTH - GRID_SIZE_PIXELS)
 	);
 
 	position.y = std::clamp(

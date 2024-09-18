@@ -1,11 +1,12 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include "constants.h"
-#include <list>
-#include "Pede.h"
 #include "Mushroom.h"
-#include "LaserBlast.h"
+#include "Pede.h"
 #include "Starship.h"
+#include <list>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <utility>
 
 using namespace sf;
 using namespace std;
@@ -37,7 +38,7 @@ public:
 
 	MovementDirection getCurrentDirection();
 	std::list<MovementDirection> getCurrentDirectionQueue();
-	
+
 private:
 	int numSegments;
 

@@ -1,10 +1,19 @@
 #pragma once
-#define _USE_MATH_DEFINES
 
-#include <SFML/Graphics.hpp>
+#define _USE_MATH_DEFINES
+#include <cmath>
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 #include "constants.h"
 #include <random>
-#include <math.h>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Clock.hpp>
+#include <SFML/System/Time.hpp>
+#include <SFML/System/Vector2.hpp>
 
 using namespace sf;
 using namespace std;

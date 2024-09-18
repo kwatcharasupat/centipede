@@ -1,4 +1,12 @@
+#include "Centipede.h"
 #include "Centipedes.h"
+#include "constants.h"
+#include "Mushroom.h"
+#include "Pede.h"
+#include "Starship.h"
+#include <list>
+#include <SFML/System/Vector2.hpp>
+#include <tuple>
 
 Centipedes::Centipedes(int numSegments, sf::Vector2f initialGridPosition)
 {

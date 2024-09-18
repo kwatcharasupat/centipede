@@ -1,7 +1,9 @@
 #include "Mushroom.h"
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/System/Vector2.hpp>
 
 
-Mushroom::Mushroom(sf::Vector2f &initPosition) {
+Mushroom::Mushroom(sf::Vector2f& initPosition) {
 
 	position = initPosition;
 
@@ -15,7 +17,7 @@ sf::Vector2f Mushroom::getPosition() {
 	return position;
 }
 
-void Mushroom::setPosition(sf::Vector2f &newPosition) {
+void Mushroom::setPosition(sf::Vector2f& newPosition) {
 	position = newPosition;
 }
 
@@ -44,14 +46,14 @@ sf::Sprite Mushroom::getSprite() {
 	sprite.setPosition(position);
 
 	switch (state) {
-		case ACTIVE:
-			sprite.setTexture(undamagedTexture);
-			return sprite;
-		case DAMAGED:
-			sprite.setTexture(damagedTexture);
-			return sprite;
-		default:
-			return sf::Sprite();
+	case ACTIVE:
+		sprite.setTexture(undamagedTexture);
+		return sprite;
+	case DAMAGED:
+		sprite.setTexture(damagedTexture);
+		return sprite;
+	default:
+		return sf::Sprite();
 	}
 
 }
