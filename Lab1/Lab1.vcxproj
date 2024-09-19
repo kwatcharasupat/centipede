@@ -97,14 +97,12 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -145,14 +143,12 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -195,14 +191,12 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -246,14 +240,12 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild>
-      </MinimalRebuild>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SupportJustMyCode>
-      </SupportJustMyCode>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -344,14 +336,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\BloodScreen.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Centipede.cpp" />
-    <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Centipedes.cpp" />
+    <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\CentipedeGame.cpp" />
+    <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\CentipedesHandler.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\LaserBlast.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\LivesDisplay.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Mushroom.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Pede.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Spider.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\Starship.cpp" />
+    <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\TextDisplay.cpp" />
     <ClCompile Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\Lab1\code\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -377,17 +372,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{2F4A3C00-15D2-3C75-B1D9-D7A559C80C54}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="code\Centipede.h" />
-    <ClInclude Include="code\Centipedes.h" />
-    <ClInclude Include="code\constants.h" />
-    <ClInclude Include="code\LaserBlast.h" />
-    <ClInclude Include="code\LivesDisplay.h" />
-    <ClInclude Include="code\Mushroom.h" />
-    <ClInclude Include="code\Pede.h" />
-    <ClInclude Include="code\Spider.h" />
-    <ClInclude Include="code\Starship.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

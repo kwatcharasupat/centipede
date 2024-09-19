@@ -1,3 +1,13 @@
+/*
+*
+* Author:			Karn Watcharasupat
+* Class:			ECE6122
+* Last Modified:	9/18/2024
+*
+* Description:		Header file for the LaserBlast class
+*
+*/
+
 #pragma once
 
 #include "constants.h"
@@ -10,7 +20,6 @@ class LaserBlast
 public:
 	LaserBlast(sf::Vector2f initPosition);
 
-
 	enum LaserBlastState {
 		UNINITIALIZED,
 		TRAVELLING,
@@ -21,7 +30,6 @@ public:
 	LaserBlastState getState();
 
 	void refresh();
-
 	sf::RectangleShape getSprite();
 
 	void destroy();
@@ -32,6 +40,7 @@ private:
 
 	unsigned int maxVerticalCoordinate = WINDOW_HEIGHT;
 	float movementDelta = LASERBLAST_MOVEMENT_DELTA;
+
 	sf::RectangleShape blastSprite;
 };
 

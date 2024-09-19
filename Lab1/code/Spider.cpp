@@ -1,3 +1,12 @@
+/*
+*
+* Author:			Karn Watcharasupat
+* Class:			ECE6122
+* Last Modified:	9/18/2024
+*
+* Description:		Class for handling the autoroam spider
+*
+*/
 
 #include "constants.h"
 #include "Spider.h"
@@ -9,6 +18,10 @@
 using namespace sf;
 using namespace std;
 
+/**
+ * @brief Constructor
+ * @param initPosition	Starting position 
+ */
 Spider::Spider(sf::Vector2f initPosition)
 {
 	position = initPosition;
@@ -22,11 +35,19 @@ Spider::Spider(sf::Vector2f initPosition)
 	clock.restart();
 }
 
+/**
+ * @brief  Get spider position
+ * @return position
+ */
 sf::Vector2f Spider::getPosition()
 {
 	return position;
 }
 
+/**
+ * @brief Get sprite, return an empty sprite if the spider is dead
+ * @return sprite
+ */
 sf::Sprite Spider::getSprite()
 {
 
@@ -37,35 +58,55 @@ sf::Sprite Spider::getSprite()
 	case SpiderState::DEAD:
 		return sf::Sprite();
 	}
+
+	throw; // this should not be reached
 }
 
+/**
+ * @brief Update the spider location
+ */
 void Spider::refresh() {
 	switch (state) {
 	case SpiderState::ALIVE:
+		// if alive, roam
 		roam();
 		break;
 	case SpiderState::DEAD:
+		// if dead, regenerate
 		regenerate();
 		break;
 	}
 }
 
+/**
+ * @brief Destroy the spider
+ */
 void Spider::destroy() {
 	timeOfLastDeath = clock.getElapsedTime();
 	state = SpiderState::DEAD;
 }
 
+/**
+ * @brief Set the position
+ * @param newPosition  New position
+ */
 void Spider::setPosition(sf::Vector2f newPosition)
 {
 	position = newPosition;
 }
 
+/**
+ * @brief Check if the spider has regenerated and update state
+ */
 void Spider::regenerate() {
 	if ((clock.getElapsedTime() - timeOfLastDeath).asSeconds() > secondsBeforeRevival) {
 		state = SpiderState::ALIVE;
 	}
 }
 
+/**
+ * @brief Autoroam the spider with random angle
+ */
 void Spider::roam()
 {
 
@@ -74,7 +115,7 @@ void Spider::roam()
 		timeOfLastDirectionChange = clock.getElapsedTime();
 	}
 
-	sf::Vector2f oldPosition(position.x, position.y);
+	sf::Vector2f oldPosition(position);
 
 	position.x = std::clamp(
 		position.x + movementDelta * cos(currentAngle),

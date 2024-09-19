@@ -1,8 +1,20 @@
+/*
+*
+* Author:			Karn Watcharasupat
+* Class:			ECE6122
+* Last Modified:	9/18/2024
+*
+* Description:		Header file for the Mushroom class
+*
+*/
+
+
 #pragma once
 
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/System/Vector2.hpp>
+
 
 using namespace sf;
 
@@ -21,12 +33,12 @@ public:
 	void setPosition(sf::Vector2f& position);
 	sf::Vector2f getPosition();
 
+	Mushroom::MushroomState getState();
+
 	void damage();
 	void destroy();
 
 	sf::Sprite getSprite();
-
-	Mushroom::MushroomState getState();
 
 private:
 	sf::Vector2f position;

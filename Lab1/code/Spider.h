@@ -1,3 +1,13 @@
+/*
+*
+* Author:			Karn Watcharasupat
+* Class:			ECE6122
+* Last Modified:	9/18/2024
+*
+* Description:		Header file for the Spider class
+*
+*/
+
 #pragma once
 
 #define _USE_MATH_DEFINES
@@ -24,27 +34,26 @@ class Spider
 public:
 	Spider(sf::Vector2f);
 
-	sf::Vector2f getPosition();
-	sf::Sprite getSprite();
-
-	void refresh();
-	void destroy();
-	void setPosition(sf::Vector2f newPosition);
-
 	enum SpiderState {
 		ALIVE,
 		DEAD
 	};
 
-private:
-	sf::Texture texture;
-	sf::Sprite sprite;
+	sf::Vector2f getPosition();
+	void setPosition(sf::Vector2f newPosition);
 
+	void refresh();
+	void destroy();
+
+	sf::Sprite getSprite();
+
+
+private:
 	sf::Vector2f position;
 	SpiderState state;
 
 	std::mt19937 rng = std::mt19937(RANDOM_SEED);
-	std::uniform_real_distribution<double> randomAngleDistribution = std::uniform_real_distribution<double>(0.0, 2 * M_PI);
+	std::uniform_real_distribution<float> randomAngleDistribution = std::uniform_real_distribution<float>(0.0f, 2.0f * (float)M_PI);
 
 	float currentAngle;
 	float movementDelta = SPIDER_MOVEMENT_DELTA;
@@ -56,6 +65,9 @@ private:
 
 	float secondsBeforeRevival = SPIDER_SECONDS_BEFORE_REVIVAL;
 	sf::Time timeOfLastDeath;
+
+	sf::Texture texture;
+	sf::Sprite sprite;
 
 	void regenerate();
 	void roam();

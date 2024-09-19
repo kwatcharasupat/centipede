@@ -1,4 +1,16 @@
+/*
+*
+* Author:			Karn Watcharasupat
+* Class:			ECE6122
+* Last Modified:	9/18/2024
+*
+* Description:		Header file for the Centipede class
+*
+*/
+
 #pragma once
+
+#include "Direction.h"
 #include "Mushroom.h"
 #include "Pede.h"
 #include "Starship.h"
@@ -6,16 +18,10 @@
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/System/Vector2.hpp>
-#include <utility>
+#include <tuple>
 
 using namespace sf;
 using namespace std;
-
-enum MovementDirection {
-	LEFT,
-	RIGHT,
-	DOWN
-};
 
 enum DamageType {
 	NO_DAMAGE,
@@ -27,7 +33,7 @@ class Centipede
 {
 public:
 	Centipede(int numSegments, sf::Vector2f initialGridPosition, Texture& headTexture, Texture& bodyTexture);
-	Centipede(std::list<Pede>& pedes, MovementDirection currentDirection, std::list<MovementDirection>& directionQueue);
+	Centipede(std::list<Pede>& pedes, Direction currentDirection, std::list<Direction>& directionQueue);
 
 	std::list<sf::Sprite> getSprites();
 
@@ -36,19 +42,18 @@ public:
 	std::tuple<std::list<std::list<Pede>>, DamageType, sf::Vector2f> checkDamage(Starship& starship, sf::Texture& headTexture);
 	std::tuple<std::list<std::list<Pede>>, DamageType, sf::Vector2f> postDamageUpdate(sf::Texture& headTexture);
 
-	MovementDirection getCurrentDirection();
-	std::list<MovementDirection> getCurrentDirectionQueue();
+	Direction getCurrentDirection();
+	std::list<Direction> getCurrentDirectionQueue();
 
 private:
 	int numSegments;
 
 	std::list<Pede> pedes;
 
-	std::list<MovementDirection> directionQueue;
-	MovementDirection currentDirection;
+	Direction currentDirection;
+	std::list<Direction> directionQueue;
 
-	//sf::Vector2f getFuturePosition(Pede headPede, MovementDirection direction);
 	bool checkImminentMushroomHit(Pede& headPede, std::list<Mushroom>& mushrooms);
-
 };
+
 
