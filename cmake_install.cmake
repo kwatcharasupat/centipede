@@ -35,8 +35,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake_install.cmake")
-  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Chapter01/cmake_install.cmake")
-  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Chapter05/cmake_install.cmake")
   include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/cmake_install.cmake")
 
 endif()

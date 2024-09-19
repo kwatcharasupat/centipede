@@ -33,7 +33,7 @@ CentipedesHandler::CentipedesHandler(int numSegments_, sf::Vector2f initialGridP
 	headTexture.loadFromFile("graphics/CentipedeHead.png");
 	bodyTexture.loadFromFile("graphics/CentipedeBody.png");
 
-	reset(); // slightly misleading name, but this is use to initialize the centipede
+	reset(); // slightly misleading name, but this is used to initialize the centipede
 }
 
 /**

@@ -35,7 +35,7 @@ public:
 
 	std::tuple<int, std::list <sf::Vector2f>> checkDamage(Starship& starship);
 
-	void CentipedesHandler::refresh(std::list<Mushroom>& mushrooms);
+	void refresh(std::list<Mushroom>& mushrooms);
 
 private:
 	int numSegments;

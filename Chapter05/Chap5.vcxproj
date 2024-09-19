@@ -122,7 +122,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\output\lib\Debug\sfml-graphics-d.lib;..\output\lib\Debug\sfml-window-d.lib;..\output\lib\Debug\sfml-audio-d.lib;..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\output\lib\Debug\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\output\lib\Debug\sfml-graphics-d.lib;..\output\lib\Debug\sfml-window-d.lib;sfml-audio.lib;..\output\lib\Debug\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -170,7 +170,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\output\lib\Release\sfml-graphics.lib;..\output\lib\Release\sfml-window.lib;..\output\lib\Release\sfml-audio.lib;..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\output\lib\Release\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\output\lib\Release\sfml-graphics.lib;..\output\lib\Release\sfml-window.lib;sfml-audio.lib;..\output\lib\Release\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -218,7 +218,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\output\lib\MinSizeRel\sfml-graphics.lib;..\output\lib\MinSizeRel\sfml-window.lib;..\output\lib\MinSizeRel\sfml-audio.lib;..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\output\lib\MinSizeRel\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\output\lib\MinSizeRel\sfml-graphics.lib;..\output\lib\MinSizeRel\sfml-window.lib;sfml-audio.lib;..\output\lib\MinSizeRel\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -265,7 +265,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\output\lib\RelWithDebInfo\sfml-graphics.lib;..\output\lib\RelWithDebInfo\sfml-window.lib;..\output\lib\RelWithDebInfo\sfml-audio.lib;..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\output\lib\RelWithDebInfo\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\output\lib\RelWithDebInfo\sfml-graphics.lib;..\output\lib\RelWithDebInfo\sfml-window.lib;sfml-audio.lib;..\output\lib\RelWithDebInfo\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -344,10 +344,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\SFML\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{928A18A4-8FE3-3736-9456-9EC615842DC3}</Project>
-      <Name>sfml-audio</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Karn\OneDrive - Georgia Institute of Technology\Coursework\Fall 2024\ECE6122\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
       <Project>{07D6AC6A-4784-3F2F-9828-3D5663197FED}</Project>
