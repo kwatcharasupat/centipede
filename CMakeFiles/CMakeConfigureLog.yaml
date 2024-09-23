@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 9/18/2024 9:00:06 PM.
+      Build started 9/23/2024 7:21:50 PM.
       
-      Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.41
+      Time Elapsed 00:00:00.45
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       MSBuild version 17.11.2+c078802d4 for .NET Framework
-      Build started 9/18/2024 9:00:06 PM.
+      Build started 9/23/2024 7:21:51 PM.
       
-      Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,7 +102,7 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-rx9k8q"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-rx9k8q"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-b9nouc"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-b9nouc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-rx9k8q'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-b9nouc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_365ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef3cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:07 PM.
+        Build started 9/23/2024 7:21:52 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-rx9k8q\\cmTC_365ff.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-b9nouc\\cmTC_ef3cd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_365ff.dir\\Debug\\".
+          Creating directory "cmTC_ef3cd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-rx9k8q\\Debug\\".
-          Creating directory "cmTC_365ff.dir\\Debug\\cmTC_365ff.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-b9nouc\\Debug\\".
+          Creating directory "cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_365ff.dir\\Debug\\cmTC_365ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_365ff.dir\\Debug\\cmTC_365ff.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_365ff.dir\\Debug\\\\" /Fd"cmTC_365ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef3cd.dir\\Debug\\\\" /Fd"cmTC_ef3cd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_365ff.dir\\Debug\\\\" /Fd"cmTC_365ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef3cd.dir\\Debug\\\\" /Fd"cmTC_ef3cd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-rx9k8q\\Debug\\cmTC_365ff.exe" /INCREMENTAL /ILK:"cmTC_365ff.dir\\Debug\\cmTC_365ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-rx9k8q/Debug/cmTC_365ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-rx9k8q/Debug/cmTC_365ff.lib" /MACHINE:X64  /machine:x64 cmTC_365ff.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_365ff.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-rx9k8q\\Debug\\cmTC_365ff.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-b9nouc\\Debug\\cmTC_ef3cd.exe" /INCREMENTAL /ILK:"cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-b9nouc/Debug/cmTC_ef3cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-b9nouc/Debug/cmTC_ef3cd.lib" /MACHINE:X64  /machine:x64 cmTC_ef3cd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ef3cd.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-b9nouc\\Debug\\cmTC_ef3cd.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_365ff.dir\\Debug\\cmTC_365ff.tlog\\unsuccessfulbuild".
-          Touching "cmTC_365ff.dir\\Debug\\cmTC_365ff.tlog\\cmTC_365ff.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-rx9k8q\\cmTC_365ff.vcxproj" (default targets).
+          Deleting file "cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ef3cd.dir\\Debug\\cmTC_ef3cd.tlog\\cmTC_ef3cd.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-b9nouc\\cmTC_ef3cd.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-nm280z"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-nm280z"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ema4ym"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ema4ym"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,34 +221,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-nm280z'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ema4ym'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_32742.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c51f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:08 PM.
+        Build started 9/23/2024 7:21:53 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-nm280z\\cmTC_32742.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ema4ym\\cmTC_c51f1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_32742.dir\\Debug\\".
+          Creating directory "cmTC_c51f1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-nm280z\\Debug\\".
-          Creating directory "cmTC_32742.dir\\Debug\\cmTC_32742.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ema4ym\\Debug\\".
+          Creating directory "cmTC_c51f1.dir\\Debug\\cmTC_c51f1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_32742.dir\\Debug\\cmTC_32742.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_32742.dir\\Debug\\cmTC_32742.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c51f1.dir\\Debug\\cmTC_c51f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c51f1.dir\\Debug\\cmTC_c51f1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_32742.dir\\Debug\\\\" /Fd"cmTC_32742.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c51f1.dir\\Debug\\\\" /Fd"cmTC_c51f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_32742.dir\\Debug\\\\" /Fd"cmTC_32742.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c51f1.dir\\Debug\\\\" /Fd"cmTC_c51f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-nm280z\\Debug\\cmTC_32742.exe" /INCREMENTAL /ILK:"cmTC_32742.dir\\Debug\\cmTC_32742.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-nm280z/Debug/cmTC_32742.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-nm280z/Debug/cmTC_32742.lib" /MACHINE:X64  /machine:x64 cmTC_32742.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_32742.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-nm280z\\Debug\\cmTC_32742.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ema4ym\\Debug\\cmTC_c51f1.exe" /INCREMENTAL /ILK:"cmTC_c51f1.dir\\Debug\\cmTC_c51f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ema4ym/Debug/cmTC_c51f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ema4ym/Debug/cmTC_c51f1.lib" /MACHINE:X64  /machine:x64 cmTC_c51f1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c51f1.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ema4ym\\Debug\\cmTC_c51f1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_32742.dir\\Debug\\cmTC_32742.tlog\\unsuccessfulbuild".
-          Touching "cmTC_32742.dir\\Debug\\cmTC_32742.tlog\\cmTC_32742.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-nm280z\\cmTC_32742.vcxproj" (default targets).
+          Deleting file "cmTC_c51f1.dir\\Debug\\cmTC_c51f1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c51f1.dir\\Debug\\cmTC_c51f1.tlog\\cmTC_c51f1.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ema4ym\\cmTC_c51f1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -295,52 +295,52 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-2ykg2d"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-2ykg2d"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-m56a9l"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-m56a9l"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-2ykg2d'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-m56a9l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9ec0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4ae8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:09 PM.
+        Build started 9/23/2024 7:21:53 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\cmTC_e9ec0.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\cmTC_e4ae8.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e9ec0.dir\\Debug\\".
+          Creating directory "cmTC_e4ae8.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\Debug\\".
-          Creating directory "cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\Debug\\".
+          Creating directory "cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9ec0.dir\\Debug\\\\" /Fd"cmTC_e9ec0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4ae8.dir\\Debug\\\\" /Fd"cmTC_e4ae8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9ec0.dir\\Debug\\\\" /Fd"cmTC_e9ec0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4ae8.dir\\Debug\\\\" /Fd"cmTC_e4ae8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\Debug\\cmTC_e9ec0.exe" /INCREMENTAL /ILK:"cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-2ykg2d/Debug/cmTC_e9ec0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-2ykg2d/Debug/cmTC_e9ec0.lib" /MACHINE:X64  /machine:x64 cmTC_e9ec0.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_e9ec0.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\Debug\\cmTC_e9ec0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\Debug\\cmTC_e4ae8.exe" /INCREMENTAL /ILK:"cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-m56a9l/Debug/cmTC_e4ae8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-m56a9l/Debug/cmTC_e4ae8.lib" /MACHINE:X64  /machine:x64 cmTC_e4ae8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e4ae8.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\Debug\\cmTC_e4ae8.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e9ec0.dir\\Debug\\cmTC_e9ec0.tlog\\cmTC_e9ec0.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-2ykg2d\\cmTC_e9ec0.vcxproj" (default targets).
+          Deleting file "cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e4ae8.dir\\Debug\\cmTC_e4ae8.tlog\\cmTC_e4ae8.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-m56a9l\\cmTC_e4ae8.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.44
+        Time Elapsed 00:00:00.48
         
       exitCode: 0
   -
@@ -353,52 +353,52 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-i2n0w4"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-i2n0w4"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ky0xro"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ky0xro"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-i2n0w4'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ky0xro'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_849f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d844c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:09 PM.
+        Build started 9/23/2024 7:21:54 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\cmTC_849f7.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\cmTC_d844c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_849f7.dir\\Debug\\".
+          Creating directory "cmTC_d844c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\Debug\\".
-          Creating directory "cmTC_849f7.dir\\Debug\\cmTC_849f7.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\Debug\\".
+          Creating directory "cmTC_d844c.dir\\Debug\\cmTC_d844c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_849f7.dir\\Debug\\cmTC_849f7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_849f7.dir\\Debug\\cmTC_849f7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d844c.dir\\Debug\\cmTC_d844c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d844c.dir\\Debug\\cmTC_d844c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_849f7.dir\\Debug\\\\" /Fd"cmTC_849f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d844c.dir\\Debug\\\\" /Fd"cmTC_d844c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_849f7.dir\\Debug\\\\" /Fd"cmTC_849f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d844c.dir\\Debug\\\\" /Fd"cmTC_d844c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\Debug\\cmTC_849f7.exe" /INCREMENTAL /ILK:"cmTC_849f7.dir\\Debug\\cmTC_849f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-i2n0w4/Debug/cmTC_849f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-i2n0w4/Debug/cmTC_849f7.lib" /MACHINE:X64  /machine:x64 cmTC_849f7.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_849f7.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\Debug\\cmTC_849f7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\Debug\\cmTC_d844c.exe" /INCREMENTAL /ILK:"cmTC_d844c.dir\\Debug\\cmTC_d844c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ky0xro/Debug/cmTC_d844c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-ky0xro/Debug/cmTC_d844c.lib" /MACHINE:X64  /machine:x64 cmTC_d844c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d844c.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\Debug\\cmTC_d844c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_849f7.dir\\Debug\\cmTC_849f7.tlog\\unsuccessfulbuild".
-          Touching "cmTC_849f7.dir\\Debug\\cmTC_849f7.tlog\\cmTC_849f7.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-i2n0w4\\cmTC_849f7.vcxproj" (default targets).
+          Deleting file "cmTC_d844c.dir\\Debug\\cmTC_d844c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d844c.dir\\Debug\\cmTC_d844c.tlog\\cmTC_d844c.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-ky0xro\\cmTC_d844c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -
@@ -411,52 +411,52 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-hib4gm"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-hib4gm"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-z3l17r"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-z3l17r"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-hib4gm'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-z3l17r'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_00aed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_34830.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:10 PM.
+        Build started 9/23/2024 7:21:55 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\cmTC_00aed.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\cmTC_34830.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_00aed.dir\\Debug\\".
+          Creating directory "cmTC_34830.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\Debug\\".
-          Creating directory "cmTC_00aed.dir\\Debug\\cmTC_00aed.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\Debug\\".
+          Creating directory "cmTC_34830.dir\\Debug\\cmTC_34830.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_00aed.dir\\Debug\\cmTC_00aed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_00aed.dir\\Debug\\cmTC_00aed.tlog\\unsuccessfulbuild".
+          Creating "cmTC_34830.dir\\Debug\\cmTC_34830.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_34830.dir\\Debug\\cmTC_34830.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00aed.dir\\Debug\\\\" /Fd"cmTC_00aed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34830.dir\\Debug\\\\" /Fd"cmTC_34830.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00aed.dir\\Debug\\\\" /Fd"cmTC_00aed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34830.dir\\Debug\\\\" /Fd"cmTC_34830.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\Debug\\cmTC_00aed.exe" /INCREMENTAL /ILK:"cmTC_00aed.dir\\Debug\\cmTC_00aed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-hib4gm/Debug/cmTC_00aed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-hib4gm/Debug/cmTC_00aed.lib" /MACHINE:X64  /machine:x64 cmTC_00aed.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_00aed.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\Debug\\cmTC_00aed.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\Debug\\cmTC_34830.exe" /INCREMENTAL /ILK:"cmTC_34830.dir\\Debug\\cmTC_34830.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-z3l17r/Debug/cmTC_34830.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-z3l17r/Debug/cmTC_34830.lib" /MACHINE:X64  /machine:x64 cmTC_34830.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_34830.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\Debug\\cmTC_34830.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_00aed.dir\\Debug\\cmTC_00aed.tlog\\unsuccessfulbuild".
-          Touching "cmTC_00aed.dir\\Debug\\cmTC_00aed.tlog\\cmTC_00aed.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-hib4gm\\cmTC_00aed.vcxproj" (default targets).
+          Deleting file "cmTC_34830.dir\\Debug\\cmTC_34830.tlog\\unsuccessfulbuild".
+          Touching "cmTC_34830.dir\\Debug\\cmTC_34830.tlog\\cmTC_34830.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-z3l17r\\cmTC_34830.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
@@ -469,52 +469,52 @@ events:
     checks:
       - "Check size of void*"
     directories:
-      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-l09w37"
-      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-l09w37"
+      source: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-dazzur"
+      binary: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-dazzur"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
-      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake/CompilerOptionsOverride.cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/SFML/cmake/CompilerOptionsOverride.cmake"
     buildResult:
       variable: "HAVE_SIZEOF_VOID_PTR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-l09w37'
+        Change Dir: 'C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-dazzur'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7220.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2203d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.2+c078802d4 for .NET Framework
-        Build started 9/18/2024 9:00:10 PM.
+        Build started 9/23/2024 7:21:55 PM.
         
-        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\cmTC_f7220.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\cmTC_2203d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f7220.dir\\Debug\\".
+          Creating directory "cmTC_2203d.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\Debug\\".
-          Creating directory "cmTC_f7220.dir\\Debug\\cmTC_f7220.tlog\\".
+          Creating directory "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\Debug\\".
+          Creating directory "cmTC_2203d.dir\\Debug\\cmTC_2203d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f7220.dir\\Debug\\cmTC_f7220.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f7220.dir\\Debug\\cmTC_f7220.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2203d.dir\\Debug\\cmTC_2203d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2203d.dir\\Debug\\cmTC_2203d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7220.dir\\Debug\\\\" /Fd"cmTC_f7220.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\SIZEOF_VOID_PTR.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2203d.dir\\Debug\\\\" /Fd"cmTC_2203d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\SIZEOF_VOID_PTR.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7220.dir\\Debug\\\\" /Fd"cmTC_f7220.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\SIZEOF_VOID_PTR.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2203d.dir\\Debug\\\\" /Fd"cmTC_2203d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\SIZEOF_VOID_PTR.c"
           SIZEOF_VOID_PTR.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\Debug\\cmTC_f7220.exe" /INCREMENTAL /ILK:"cmTC_f7220.dir\\Debug\\cmTC_f7220.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-l09w37/Debug/cmTC_f7220.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/CMakeFiles/CMakeScratch/TryCompile-l09w37/Debug/cmTC_f7220.lib" /MACHINE:X64  /machine:x64 cmTC_f7220.dir\\Debug\\SIZEOF_VOID_PTR.obj
-          cmTC_f7220.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\Debug\\cmTC_f7220.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\Debug\\cmTC_2203d.exe" /INCREMENTAL /ILK:"cmTC_2203d.dir\\Debug\\cmTC_2203d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-dazzur/Debug/cmTC_2203d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/CMakeFiles/CMakeScratch/TryCompile-dazzur/Debug/cmTC_2203d.lib" /MACHINE:X64  /machine:x64 cmTC_2203d.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_2203d.vcxproj -> C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\Debug\\cmTC_2203d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f7220.dir\\Debug\\cmTC_f7220.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f7220.dir\\Debug\\cmTC_f7220.tlog\\cmTC_f7220.lastbuildstate".
-        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\CMakeFiles\\CMakeScratch\\TryCompile-l09w37\\cmTC_f7220.vcxproj" (default targets).
+          Deleting file "cmTC_2203d.dir\\Debug\\cmTC_2203d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2203d.dir\\Debug\\cmTC_2203d.tlog\\cmTC_2203d.lastbuildstate".
+        Done Building Project "C:\\Users\\Karn\\OneDrive - Georgia Institute of Technology\\Coursework\\Fall 2024\\ECE6122\\Lab1\\CMakeFiles\\CMakeScratch\\TryCompile-dazzur\\cmTC_2203d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.49
         
       exitCode: 0
 ...

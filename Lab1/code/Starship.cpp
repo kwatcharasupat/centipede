@@ -29,7 +29,7 @@ Starship::Starship(sf::Vector2f initPosition)
 {
 	position = initPosition;
 
-	texture.loadFromFile("graphics/StarShip.png");
+	texture.loadFromFile("./graphics/StarShip.png");
 	sprite.setTexture(texture);
 	sprite.setPosition(position);
 

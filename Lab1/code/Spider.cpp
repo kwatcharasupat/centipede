@@ -27,7 +27,7 @@ Spider::Spider(sf::Vector2f initPosition)
 	position = initPosition;
 	state = SpiderState::ALIVE;
 
-	texture.loadFromFile("graphics/Spider.png");
+	texture.loadFromFile("./graphics/Spider.png");
 	sprite.setTexture(texture);
 
 	currentAngle = randomAngleDistribution(rng);

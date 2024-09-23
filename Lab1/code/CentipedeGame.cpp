@@ -58,7 +58,7 @@ void CentipedeGame::startupSequence()
 {
 	// Set the background
 	Texture textureBackground;
-	textureBackground.loadFromFile("graphics/Startup Screen BackGround.png");
+	textureBackground.loadFromFile("./graphics/Startup Screen BackGround.png");
 	Sprite spriteBackground(textureBackground);
 	spriteBackground.setPosition(sf::Vector2f(0.f, 0.f));
 

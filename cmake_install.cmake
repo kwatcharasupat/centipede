@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122
+# Install script for directory: C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/SFML/cmake_install.cmake")
-  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/cmake_install.cmake")
+  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/SFML/cmake_install.cmake")
+  include("C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/Lab1/cmake_install.cmake")
 
 endif()
 
@@ -54,6 +54,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

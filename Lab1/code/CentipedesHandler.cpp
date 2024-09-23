@@ -30,8 +30,8 @@ CentipedesHandler::CentipedesHandler(int numSegments_, sf::Vector2f initialGridP
 	numSegments = numSegments_;
 	initialGridPosition = initialGridPosition_;
 
-	headTexture.loadFromFile("graphics/CentipedeHead.png");
-	bodyTexture.loadFromFile("graphics/CentipedeBody.png");
+	headTexture.loadFromFile("./graphics/CentipedeHead.png");
+	bodyTexture.loadFromFile("./graphics/CentipedeBody.png");
 
 	reset(); // slightly misleading name, but this is used to initialize the centipede
 }

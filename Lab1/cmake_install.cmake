@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1
+# Install script for directory: C:/Users/Karn/OneDrive - Georgia Institute of Technology/Coursework/Fall 2024/ECE6122/Lab1/Lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

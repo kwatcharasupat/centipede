@@ -26,7 +26,7 @@ LivesDisplay::LivesDisplay(int numLives, sf::Vector2f initPosition)
 
 	position = initPosition;
 
-	texture.loadFromFile("graphics/StarShip.png");
+	texture.loadFromFile("./graphics/StarShip.png");
 	initializeSprites();
 }
 

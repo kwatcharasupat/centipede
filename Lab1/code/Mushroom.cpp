@@ -24,8 +24,8 @@ Mushroom::Mushroom(sf::Vector2f& initPosition) {
 
 	state = MushroomState::ACTIVE;
 
-	undamagedTexture.loadFromFile("graphics/Mushroom0.png");
-	damagedTexture.loadFromFile("graphics/Mushroom1.png");
+	undamagedTexture.loadFromFile("./graphics/Mushroom0.png");
+	damagedTexture.loadFromFile("./graphics/Mushroom1.png");
 }
 
 /**
